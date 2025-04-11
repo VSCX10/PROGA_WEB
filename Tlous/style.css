@@ -1,0 +1,40 @@
+table, th, td 
+{
+    border: 1px solid black;   
+}
+
+#titulo 
+{
+    font-size: 17px;
+    color: black;
+    font-weight: normal;
+}
+
+#Sub_1 
+{
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+}
+
+#Sub_2
+{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+}
+
+.texto 
+{
+    text-align: middle;
+    
+    font-size: 12px;
+    color: black;
+}
+.fecha
+{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
