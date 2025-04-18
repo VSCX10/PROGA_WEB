@@ -1,40 +1,32 @@
-table, th, td 
-{
-    border: 1px solid black;   
-}
-
-#titulo 
-{
-    font-size: 17px;
+#titulo {
     color: black;
-    font-weight: normal;
 }
 
-#Sub_1 
-{
-    font-size: 25px;
+article .texto{
     color: black;
-    font-weight: normal;
-}
-
-#Sub_2
-{
-    font-size: 20px;
-    color: black;
-    font-weight: normal;
-}
-
-.texto 
-{
-    text-align: middle;
     
-    font-size: 12px;
-    color: black;
-}
-.fecha
-{
-    font-size: 12px;
-    color: black;
-    font-weight: bold;
 }
 
+* {
+    font-size: 15px;
+    color: black;
+}
+
+#margen{
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+
+}
+article .texto_especial{
+    color: black;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: solid 1px black;
+    text-decoration: underline;
+}
